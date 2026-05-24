@@ -13,8 +13,9 @@ export const site = {
     { days: "金・土・日", time: "11:00〜22:00" },
   ],
   closed: "年中無休",
-  // Google フォームの埋め込みURLをここに設定してください（例: https://docs.google.com/forms/d/e/.../viewform?embedded=true）
-  contactFormUrl: "",
+  // Google フォームの埋め込みURL（iframe用に末尾は ?embedded=true）
+  contactFormUrl:
+    "https://docs.google.com/forms/d/e/1FAIpQLSdZjOLoWXBT1z55_Ku0k_WhhMijM_vhEvOO8-1UFUtc0LGB7Q/viewform?embedded=true",
   // Google マップ埋め込み用（住所から自動生成。差し替え可）
   mapEmbedUrl:
     "https://maps.google.com/maps?q=" +
