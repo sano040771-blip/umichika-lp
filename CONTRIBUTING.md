@@ -268,4 +268,8 @@ git merge main
 
 ---
 
+## メンバー
+- @chipacopter-dot
+- @sano040771-blip
+
 Happy editing! 🍜
