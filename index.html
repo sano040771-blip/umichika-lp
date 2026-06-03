@@ -6,7 +6,7 @@
 <title>うみちか食堂｜スタッフ募集</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;600;700;900&family=Kaisei+Tokumin:wght@400;700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet" />
 <style>
 :root{
   --bg:#f1e6cf;
@@ -94,9 +94,9 @@ header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper
 .hero-meta span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent)}
 .hero-visual{position:relative}
 .hero-visual .ph{aspect-ratio:4/4.4;border-radius:6px}
-.hero-badge{position:absolute;left:-18px;bottom:26px;background:var(--accent);color:#fff;border-radius:50%;
+.hero-badge{font-family:"Zen Old Mincho",serif;letter-spacing:.08em;position:absolute;left:-18px;bottom:26px;background:var(--accent);color:#fff;border-radius:50%;
   width:118px;height:118px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
-  font-family:var(--font-head);box-shadow:0 14px 30px -10px var(--accent);transform:rotate(-7deg)}
+  font-family:"Kaisei Tokumin",serif;box-shadow:0 14px 30px -10px var(--accent);transform:rotate(-7deg)}
 .hero-badge b{font-size:30px;line-height:1;font-weight:700}
 .hero-badge small{font-family:var(--font-body);font-size:10px;letter-spacing:.14em;font-weight:700;margin-top:5px}
 .hero-thumb{position:absolute;right:-14px;top:-18px;width:128px}
@@ -283,8 +283,10 @@ footer{background:var(--ink);color:var(--paper);padding:64px 0 30px}
       </div>
       <div class="hero-visual">
         <img src="img-hero.png" alt="うみちか食堂 店内" style="width:100%;height:100%;object-fit:cover;border-radius:6px;">
-        <div class="hero-thumb"><div class="ph"><span>料理</span></div></div>
-        <div class="hero-badge"><b>20</b><small>YEARS<br />ありがとう</small></div>
+        <div class="hero-thumb" style="display:none"><img src="img-food.png" alt="沖縄そば" style="width:100%;height:100%;object-fit:cover;border-radius:6px;"></div>
+      <div class="hero-badge" style="font-family:'Zen Old Mincho',serif;background:#c0392b;box-shadow:0 14px 30px -10px rgba(192,57,43,.6);transform:rotate(-7deg);border:4px solid #fff;outline:2px solid #c0392b;"><span style="font-size:10px;letter-spacing:.3em;opacity:.9;display:block;margin-bottom:2px;">創業</span><b style="font-size:30px;line-height:1;display:block;">二十年</b><small style="font-size:9px;letter-spacing:.2em;opacity:.9;margin-top:4px;display:block;">謹んで</small></div>
+      
+
       </div>
     </div>
   </section>
@@ -379,21 +381,21 @@ footer{background:var(--ink);color:var(--paper);padding:64px 0 30px}
       </div>
       <div class="jobs-grid">
         <div class="jcard">
-          <div class="ph"><span>調理風景の写真</span></div>
+          <img src="img-work1.png" alt="厨房・調理の様子" style="width:100%;aspect-ratio:16/10;object-fit:cover;">
           <div class="jbody">
             <h3>調理・キッチン</h3>
             <p>定番の沖縄料理から看板の沖縄そばまで。仕込みや盛り付けも、先輩が一から丁寧にお教えします。</p>
           </div>
         </div>
         <div class="jcard">
-          <div class="ph"><span>接客風景の写真</span></div>
+          <img src="img-work2.png" alt="ホール・接客の様子" style="width:100%;aspect-ratio:16/10;object-fit:cover;">
           <div class="jbody">
             <h3>ホール・接客</h3>
             <p>ご注文や配膳、お客さまとの何気ない会話。食堂の「顔」として、あたたかい時間をつくるお仕事です。</p>
           </div>
         </div>
         <div class="jcard">
-          <div class="ph"><span>店舗運営の写真</span></div>
+          <img src="img-work3.png" alt="店舗運営の様子" style="width:100%;aspect-ratio:16/10;object-fit:cover;">
           <div class="jbody">
             <h3>店舗運営サポート</h3>
             <p>仕込みや在庫管理、開店・閉店準備など。お店全体を支える役割。将来の店長候補も歓迎します。</p>
@@ -486,7 +488,7 @@ footer{background:var(--ink);color:var(--paper);padding:64px 0 30px}
             <div class="ainfo"><dt>定休日</dt><dd>年中無休</dd></div>
           </dl>
         </div>
-        <div class="map"><div class="ph"><span>Googleマップ 埋め込み</span></div></div>
+        <div class="map"><iframe src="https://maps.google.com/maps?q=沖縄県宜野湾市真志喜2丁目27-1&output=embed&hl=ja" width="100%" style="border:0;border-radius:6px;aspect-ratio:4/3;display:block;" allowfullscreen loading="lazy"></iframe></div>
       </div>
     </div>
   </section>
